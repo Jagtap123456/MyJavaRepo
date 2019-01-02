@@ -1,17 +1,12 @@
 class HelloWorld{
+            void myMethod(){
+  System.out.println("hello....!!!");
+}
 
-void myMethod(){
-
-                      
-                System.out.println("hello....WelCome to !!!");
-               
-
-                         }
-               
-
-                            public static void main(String args[]){
-                       myMethod();
+               public static void main(String args[]){
 
 
-                    }
+                HelloWorld obj= new HelloWorld();
+obj.myMethod();     
+}
 }
